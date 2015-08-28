@@ -2,7 +2,7 @@
 
 the Sticky Layout(sl for shot) has 3 parts, which are the main layout and 2 children layouts.
 
- ![QQ20150828-1@2x](/Users/Dennis/Pictures/com.tencent.ScreenCapture/QQ20150828-1@2x.png)
+ ![QQ20150828-1@2x](https://raw.githubusercontent.com/DennisAu/Android-StickyLayout/master/wiki-res/QQ20150828-1%402x.png)
 
 As the picture above, the hold pic is the main layout(sl). And the lay1, lay2 are the children layouts.
 
@@ -43,4 +43,3 @@ when the sl attempting to anchor top or bottom, the finger down. sl will stop th
 | :----------: | :--------------------------------------: | 
 |     true     |             intercept touch              | 
 |    false     | go to  the anchor at top or bottom logic | 
-
