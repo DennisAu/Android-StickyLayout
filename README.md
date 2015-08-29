@@ -43,3 +43,32 @@ when the sl attempting to anchor top or bottom, the finger down. sl will stop th
 | :----------: | :--------------------------------------: | 
 |     true     |             intercept touch              | 
 |    false     | go to  the anchor at top or bottom logic | 
+
+
+
+### About the code design details
+
+\```flow
+
+st=>start: lay1 touch event
+
+e=>end: end, lay1 super touch
+
+opLay1Scroll=>operation: sl scroll to anchor
+
+condLay1CanUp=>condition: can lay1 move up
+
+condFingerMove=>condition: is Finger Move Direction Up
+
+condSlAnchor=>condition: is Sl at bottom
+
+st->condLay1CanUp(no, bottom)->condFingerMove(yes)->condSlAnchor(yes,bottom)->opLay1Scroll
+
+condLay1CanUp(yes)->e
+
+condFingerMove(no)->e
+
+condSlAnchor(no)->e
+
+\```
+

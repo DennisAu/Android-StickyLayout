@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="sticky_demo_test_view1">
+        <item name="android:background">@color/green</item>
+    </style>
+
+    <style name="sticky_demo_test_view2">
+        <item name="android:background">@color/red</item>
+    </style>
+</resources>

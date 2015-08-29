@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tcg_red_light">#dc3f4b</color>
+    <color name="tcg_red_dark">#86070e</color>
+    <color name="tcg_text_gray_light">#717171</color>
+    <color name="tcg_text_gray_dark">#1d1d1d</color>
+    <color name="tcg_red_background">#3cdc3f4b</color>
+
+    <!-- grayscale -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray_light">#DBDBDB</color>
+    <color name="gray">#939393</color>
+    <color name="gray_dark">#5F5F5F</color>
+    <color name="black">#323232</color>
+
+    <!-- basic colors -->
+    <color name="green">#27D34D</color>
+    <color name="blue">#2A91BD</color>
+    <color name="orange">#FF9D2F</color>
+    <color name="red">#FF432F</color>
+
+
+</resources>
