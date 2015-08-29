@@ -48,27 +48,7 @@ when the sl attempting to anchor top or bottom, the finger down. sl will stop th
 
 ### About the code design details
 
-\```flow
+the touch event for the motion is began by the child view, for example start by the lay1’s touch event. the flow is look like below:
 
-st=>start: lay1 touch event
-
-e=>end: end, lay1 super touch
-
-opLay1Scroll=>operation: sl scroll to anchor
-
-condLay1CanUp=>condition: can lay1 move up
-
-condFingerMove=>condition: is Finger Move Direction Up
-
-condSlAnchor=>condition: is Sl at bottom
-
-st->condLay1CanUp(no, bottom)->condFingerMove(yes)->condSlAnchor(yes,bottom)->opLay1Scroll
-
-condLay1CanUp(yes)->e
-
-condFingerMove(no)->e
-
-condSlAnchor(no)->e
-
-\```
+![QQ20150829-2@2x](/Users/Dennis/Pictures/com.tencent.ScreenCapture/QQ20150829-2@2x.png)
 
