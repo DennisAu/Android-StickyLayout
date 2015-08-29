@@ -50,5 +50,5 @@ when the sl attempting to anchor top or bottom, the finger down. sl will stop th
 
 the touch event for the motion is began by the child view, for example start by the lay1’s touch event. the flow is look like below:
 
-![QQ20150829-2@2x](/Users/Dennis/Pictures/com.tencent.ScreenCapture/QQ20150829-2@2x.png)
+![QQ20150829-2@2x](https://raw.githubusercontent.com/DennisAu/Android-StickyLayout/dev/wiki-res/QQ20150829-3%402x.png)
 
